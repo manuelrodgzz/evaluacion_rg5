@@ -5,7 +5,7 @@ app = Flask(__name__, static_url_path='')
 
 @app.route('/', methods=['GET'])
 def read_csv():
-    file_path='../data/employees.csv'
+    file_path='data/employees.csv'
 
     list=[]
 
